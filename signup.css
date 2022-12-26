@@ -1,0 +1,101 @@
+:root{
+    --bg: rgb(44, 44, 44);
+}
+*{
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'nordfont';
+    src: url(./Norse-Bold.otf);
+}
+
+.bgi {
+    height: 98vh;
+    position: absolute;
+}
+.logo{
+    height: 25vh;
+    width: 12.5vw;
+    padding: 0%;
+}
+
+.logos {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin-left: 50vw;
+}
+#oa{
+    color: rgb(225, 230, 233);  
+    font-family: 'nordfont', sans-serif;
+    font-size: 3em;
+}
+#val {
+    font-family: 'nordfont';
+}
+
+.description {
+    color: rgb(129, 129, 129);
+    padding-left: 30%;  
+    padding-top: 12%;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 5px;
+}
+
+form {
+    height: 47  vh;
+    width: 21vw;
+    background-color: var(--bg);
+    margin-left: 50%;
+    margin-top: 3%;
+    color: rgb(140, 141, 141);
+    font-size: large;
+    border: 2ch;
+    border-style: solid;
+    border-color: var(--bg);
+    border-radius: 50px;
+}
+label {
+    background-color:var(--bg);
+    display: inline-block;
+    width: 150px;
+}
+input{
+    border-radius: 5px;
+    background-color: var(--bg);
+    border-style: hidden;
+    border-bottom: solid;
+    color: aliceblue;
+}
+
+input::selection {
+    border-bottom: solid;
+    color: aliceblue;
+    all: initial;
+}
+
+.inputs {
+    text-align: left;
+    line-height: 10vh;
+    background-color:var(--bg);
+    padding-left: 10px;
+    color: aliceblue;
+}
+
+.btn{
+    background-color: var(--bg);
+    padding: 1%;
+    border-style: hidden;
+    position: absolute;
+    margin-left: 7.5%;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+}
+

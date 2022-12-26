@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./signup.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div >
+        <img src="./pikrepo.jpg" class="bgi">
+    </div>
+    <div class="logos">
+        <img src="./norse-god-odin-illustration-black-backgorund-vector-norse-god-odin-illustration-black-backgorund-vector-can-be-used-logos-203032964.jpg" class="logo">
+        <p id="oa">Odin Adventures</p>
+    </div>
+    <div class="description">
+        <p>Want to go on an adventurous adventure and secure your place in <span id="val">Vahalla?</span></p>
+        <p>Sign Up now</p>
+    </div>
+    <form action="./data" method="post">
+        <div class="inputs">
+            <label for="first_name">First Name: </label>
+            <input type="text" id="first_name" name="fname" maxlength="10" required>
+        </div>
+
+        <div class="inputs">
+            <label for="last_name">Last Name: </label>
+            <input type="text" name="lname" id="last_name" maxlength="10" required>
+        </div>
+
+        <div class="inputs">
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" minlength="3" maxlength="18" required>
+        </div> 
+
+        <div class="inputs">
+            <label for="con-pass">Confirm Password: </label>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <button type="submit" class="btn">Let's Go</button>
+
+        
+    </form>
+    <div class="check">
+        
+        <input type="checkbox" name="check" id="check">
+        <label for="check">I agree to terms and conditions</label>
+    </div>
+</body>
+</html>
